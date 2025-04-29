@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaning Zou - Personal Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 4px solid #2c3e50;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding-left: 1rem;
+        }
+
+        .contact-info li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your-photo.jpg" alt="Yaning Zou" class="profile-img">
+        <h1>Yaning Zou</h1>
+        <p>Master's Candidate in Information and Communication Engineering</p>
+        <p>Shandong Normal University</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#view">View</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="view">
+            <h2>Professional Profile</h2>
+            <p>Yaning Zou is a motivated graduate researcher specializing in UAV-Enabled Integrated Sensing and Communication (ISAC) systems at Shandong Normal University. Her work focuses on developing synergistic frameworks that unify sensing functionalities with communication protocols in aerial networks. She demonstrates particular expertise in waveform co-design and resource optimization for dual-functional UAV platforms.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul class="contact-info">
+                <li>📧 Email: <a href="mailto:2398881598@qq.com">2398881598@qq.com</a></li>
+                <li>🏢 Office: Room 325, Wencong Building Changqinghu Campus</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
